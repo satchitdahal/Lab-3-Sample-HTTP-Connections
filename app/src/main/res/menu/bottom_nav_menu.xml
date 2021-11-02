@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_hello"
+        android:icon="@drawable/ic_hello_black_24dp"
+        android:title="@string/title_hello" />
+
+    <item
+        android:id="@+id/navigation_params"
+        android:icon="@drawable/ic_params_black_24dp"
+        android:title="@string/title_params" />
+
+    <item
+        android:id="@+id/navigation_wait"
+        android:icon="@drawable/ic_wait_black_24dp"
+        android:title="@string/title_wait" />
+</menu>

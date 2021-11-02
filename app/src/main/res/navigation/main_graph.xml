@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/navigation_hello">
+
+    <fragment
+        android:id="@+id/navigation_hello"
+        android:name="edu.uw.tcss450.lab3_samplehttpconnections.ui.hello.HelloFragment"
+        android:label="@string/title_hello"
+        tools:layout="@layout/hello_fragment" />
+    <fragment
+        android:id="@+id/navigation_params"
+        android:name="edu.uw.tcss450.lab3_samplehttpconnections.ui.params.ParamsFragment"
+        android:label="@string/title_params"
+        tools:layout="@layout/params_fragment" />
+    <fragment
+        android:id="@+id/navigation_wait"
+        android:name="edu.uw.tcss450.lab3_samplehttpconnections.ui.wait.WaitFragment"
+        android:label="@string/title_wait"
+        tools:layout="@layout/wait_fragment" />
+</navigation>
